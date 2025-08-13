@@ -39,7 +39,7 @@ public class ProductPage {
 				buttons.get(0).click();
 				Thread.sleep(3000);
 				String name = product1.getText();
-				String title= wait.waitForElementVisible(product1).getText();
+				String title= wait.waitForElementVisible(productTitleInCart).getText();
 				Assert.assertEquals(title, name, "Products doesn't match");
 				System.out.println(name+ " added successfully");
 				System.out.println("Both titles "+name+ " and " +title+" matches");
@@ -65,4 +65,5 @@ public class ProductPage {
 	}
 
 }
+
 
