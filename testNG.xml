@@ -1,0 +1,14 @@
+<suite name = "ECommerceTestSuite" parallel="false">
+	<test name = "ECommerceTest">
+		<classes>
+			<class name = "TestCases.LoginTest">
+			</class>
+			<class name = "TestCases.AddToCartTest">
+			</class>
+			<class name = "TestCases.CheckoutTest">
+			</class>
+			<class name = "TestCases.ExtentReport">
+			</class>
+		</classes>
+	</test>
+</suite>
